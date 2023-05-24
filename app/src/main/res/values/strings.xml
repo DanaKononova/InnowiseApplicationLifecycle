@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">InnowiseApplicationLifecycle</string>
+    <string name="tap">Tap</string>
+    <string name="cancel">Cancel</string>
+    <string name="update">Update</string>
+    <string name="_0">0</string>
 </resources>
