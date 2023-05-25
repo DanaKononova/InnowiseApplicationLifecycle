@@ -27,8 +27,16 @@ class UpdateCounterActivity : AppCompatActivity() {
         }
 
         cancelButton.setOnClickListener {
+            val intent = Intent().apply {
+                putExtra("updatedValue", counterValue)
+            }
+            setResult(Activity.RESULT_OK, intent)
             finish()
         }
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
     }
 }
 
